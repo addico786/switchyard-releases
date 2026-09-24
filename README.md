@@ -47,11 +47,11 @@ before the checks pass: the sha256 checksum always, and the signature
 when `minisign` is installed (`sudo apt install minisign`). To install
 one exact version: `VERSION=0.2.0 bash install.sh`.
 
-The minisign public key (the same key is inside `install.sh` and inside
-the `switchyard` program):
+The minisign public key of this project (the same key is inside
+`install.sh` and inside the `switchyard` program):
 
 ```
-REPLACE_WITH_THE_KEY_FROM_MINISIGN_PUB
+RWSHT90dkQiKErLomr8KgpD2nPlJzzn/ZESkG2Z+AGbTOLGwlyk1eCY4
 ```
 
 Then run `switchyard setup` for a short walk-through.
