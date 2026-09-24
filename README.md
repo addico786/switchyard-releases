@@ -56,6 +56,21 @@ RWSHT90dkQiKErLomr8KgpD2nPlJzzn/ZESkG2Z+AGbTOLGwlyk1eCY4
 
 Then run `switchyard setup` for a short walk-through.
 
+## Which file do I need?
+
+None by hand: use the install command above. It picks the right
+program for your computer and checks it before installing.
+
+- The "Source code (zip)" and "Source code (tar.gz)" files that GitHub
+  adds to every release contain only this README and SECURITY.md.
+  There is nothing to install in them.
+- The programs are the single files `switchyard-linux-x64` (most PCs)
+  and `switchyard-linux-arm64` (ARM machines). `SHASUMS256.txt` and its
+  `.minisig` signature are what the install command checks them with.
+- On Windows, run the install command inside WSL (Ubuntu), not in
+  PowerShell or Command Prompt.
+- macOS is not supported yet.
+
 ## Update
 
 ```
