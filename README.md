@@ -4,6 +4,18 @@ Run several Claude Code accounts on one Linux or WSL machine, each with
 its own sign-in, settings and sessions, and start the right one by
 folder. A profile can hold OpenAI's Codex too. macOS is in preview.
 
+## Latest release
+
+**Switchyard 0.7.1**, released 2026-09-29. [Downloads and release notes](https://github.com/addico786/switchyard-releases/releases/tag/v0.7.1).
+
+What is new in 0.7.1:
+
+- The page never waits forever: every request ends within 30 seconds, or 15 minutes for long jobs...
+- After an update, open a new terminal: switchyard update now says so, and switchyard doctor says...
+- Commands printed for you to copy work with any folder name, including spaces, quotes and emoji.
+
+Every change: the release notes above, or `switchyard ui`, then Settings, About.
+
 ## Why
 
 - No more signing out and in again to change accounts.
