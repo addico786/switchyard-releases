@@ -6,13 +6,13 @@ folder. A profile can hold OpenAI's Codex too. macOS is in preview.
 
 ## Latest release
 
-**Switchyard 0.7.2**, released 2026-09-29. [Downloads and release notes](https://github.com/addico786/switchyard-releases/releases/tag/v0.7.2).
+**Switchyard 0.7.3**, released 2026-09-30. [Downloads and release notes](https://github.com/addico786/switchyard-releases/releases/tag/v0.7.3).
 
-What is new in 0.7.2:
+What is new in 0.7.3:
 
-- Health and Check for updates answer again on the page; switchyard doctor no longer stops.
-- When switchyard ui does not answer, the yellow strip says so and the page keeps trying.
-- Health runs again only when something it reports on changes, never on a desktop switch.
+- A folder you type means the same folder in every command, and which knows folders not made yet.
+- A mistyped command gets one short line and the command to run next, never an echoed key.
+- The Sessions page's search now decides what Select by age and Delete act on.
 
 Every change: the release notes above, or `switchyard ui`, then Settings, About.
 
