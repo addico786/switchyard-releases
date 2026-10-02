@@ -6,13 +6,13 @@ folder. A profile can hold OpenAI's Codex too. macOS is in preview.
 
 ## Latest release
 
-**Switchyard 0.7.3**, released 2026-09-30. [Downloads and release notes](https://github.com/addico786/switchyard-releases/releases/tag/v0.7.3).
+**Switchyard 0.7.4**, released 2026-10-02. [Downloads and release notes](https://github.com/addico786/switchyard-releases/releases/tag/v0.7.4).
 
-What is new in 0.7.3:
+What is new in 0.7.4:
 
-- A folder you type means the same folder in every command, and which knows folders not made yet.
-- A mistyped command gets one short line and the command to run next, never an echoed key.
-- The Sessions page's search now decides what Select by age and Delete act on.
+- Doctor and the page's Health no longer fail on a Mac when the alias check's shell is ended.
+- The Mac tests now count: the macOS job fails the build when a Mac test fails.
+- switchyard ui stopped with Ctrl+Z and sent on with bg is no longer stopped again by the terminal.
 
 Every change: the release notes above, or `switchyard ui`, then Settings, About.
 
